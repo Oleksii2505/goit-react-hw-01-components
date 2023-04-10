@@ -5,3 +5,7 @@ export const getRandomHexColor = () => {
 export const getFlexBasis = ({length}) => {
   return `calc(100%/${length})`;
 }
+
+export const getBgColorIsOnline = ({isOnline}) => {
+  return isOnline ? "green" : "red";
+}

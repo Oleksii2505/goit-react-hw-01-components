@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import { getRandomHexColor, getFlexBasis } from "utils";
 
-export const StatisticsWrapper = styled.section`
+export const StatisticsSection = styled.section`
 width: 600px;
 margin:  0 auto 20px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -24,7 +24,7 @@ list-style: none;
 display: flex;
 `;
 
-export const Item = styled.li`
+export const StatItem = styled.li`
 display: flex;
 flex-direction: column;
 flex-basis: ${getFlexBasis};

@@ -21,25 +21,26 @@ margin-bottom: 20px;
 `;
 
 export const Avatar = styled.img`
-width: 200px;
+background-color: #E7EFBC;
+width: 150px;
 border-radius: 50%;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 `;
 
 export const Name = styled.p`
 text-align: center;
-font-weight: 900;
+font-weight: 700;
 font-size: 30px;
 `;
 
 export const Tag = styled.p`
 color: grey;
-font-size: 20px;
+font-size: 15px;
 `;
 
 export const Location = styled.p`
 color: grey;
-  font-size: 20px;
+  font-size: 15px;
 `;
 
 export const Stats = styled.ul`
@@ -55,7 +56,7 @@ align-items: center;
 outline: 1px solid rgba(0, 0, 0, 0.1);
 flex-basis: calc(100%/3);
 padding: 20px;
-background-color:  #c190c6;
+background-color: #ECF5B0;
  :first-of-type {
     border-radius: 0px 0px 0px 8px;
   }
@@ -65,11 +66,11 @@ background-color:  #c190c6;
 `;
 
 export const Label = styled.span`
-color: grey;
+color: #231725;
 font-size: 18px;
 `;
 
 export const Quantity = styled.span`
 font-weight: 700;
 font-size: 18px;
-`
+`;

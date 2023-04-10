@@ -7,5 +7,5 @@ justify-content: center;
 align-items: center;
 font-size: 50px;
 color: #011101;
-background-color: #c190c6;
+background-color: #CBF4D5;
 `;
